@@ -6,7 +6,7 @@ Steps and technology stacks for both frontend and backend based on the project r
 
 ### Frontend:
 
-**1. Login Screen:**
+**1. [in progress..] Login Screen:**
    - **Objective:**
      - Implement user authentication with a unique username/email and secure password.
 
@@ -14,7 +14,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      
 
-**2. Roles and Right Management Screen:**
+**2. [] Roles and Right Management Screen:**
    - **Objective:**
      - Manage user roles (Super Admin, Admin, Recruiter) with responsibilities.
 
@@ -22,7 +22,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      
 
-**3. Document Upload Screen:**
+**3. [] Document Upload Screen:**
    - **Objective:**
      - Allow users to upload documents (resumes) with specified formats.
      - Implement document storage and review functionality.
@@ -31,7 +31,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      - React Dropzone or similar for file uploads
 
-**4. User Entry and Upload Form:**
+**4. [] User Entry and Upload Form:**
    - **Objective:**
      - Create a form for users to enter details.
      - Implement validation and securely upload resumes.
@@ -40,7 +40,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      - Formik or React Hook Form for form handling
 
-**5. Requirement Upload/Input and Search:**
+**5. [] Requirement Upload/Input and Search:**
    - **Objective:**
      - Authenticate users before accessing match results.
      - Allow users to upload requirements, search, and display match results.
@@ -49,7 +49,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      - Search functionality: Implement in React.
 
-**6. User Interface (UI) Design:**
+**6. [] User Interface (UI) Design:**
    - **Objective:**
      - Design user-friendly interfaces with clear labels and intuitive navigation.
 
@@ -58,7 +58,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - CSS for styling
      - Responsive design principles
 
-**7. Additional Considerations:**
+**7. [] Additional Considerations:**
    - **Technology Stack:**
      - Use React Router for navigation
      - State management: React Context API or Redux.
