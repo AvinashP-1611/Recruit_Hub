@@ -67,7 +67,7 @@ Steps and technology stacks for both frontend and backend based on the project r
 
 **1. Technical Architecture:**
    - **Objective:**
-     - Implement scalable server to handle business logic and interact with the database.
+     - Implement scalable server to handle business logic like add user, admin, recruiter and candidate details  and interact with the database.
 
    - **Technology Stack:**
      - Node.js(Express)/Java(SpringBoot) (Backend Framework)
