@@ -6,7 +6,7 @@ Steps and technology stacks for both frontend and backend based on the project r
 
 ### Frontend:
 
-**1. [in progress..] Login Screen:**
+**1. Login Screen:**
    - **Objective:**
      - Implement user authentication with a unique username/email and secure password.
 
@@ -14,33 +14,24 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      
 
-**2. [] Roles and Right Management Screen:**
+**2.  Roles and Right Management Screen:**
    - **Objective:**
-     - Manage user roles (Super Admin, Admin, Recruiter) with responsibilities.
+     - Manage user roles (Admin, Recruiter, Candidate) with responsibilities.
 
    - **Technology Stack:**
      - React (Frontend Framework)
      
 
-**3. [] Document Upload Screen:**
-   - **Objective:**
-     - Allow users to upload documents (resumes) with specified formats.
-     - Implement document storage and review functionality.
-
-   - **Technology Stack:**
-     - React (Frontend Framework)
-     - React Dropzone or similar for file uploads
-
-**4. [] User Entry and Upload Form:**
+**3. User Entry and Upload Form:**
    - **Objective:**
      - Create a form for users to enter details.
-     - Implement validation and securely upload resumes.
+     - Implement validation.
 
    - **Technology Stack:**
      - React (Frontend Framework)
-     - Formik or React Hook Form for form handling
+     - React Hook Form for form handling
 
-**5. [] Requirement Upload/Input and Search:**
+**4.  Requirement Upload/Input and Search:**
    - **Objective:**
      - Authenticate users before accessing match results.
      - Allow users to upload requirements, search, and display match results.
@@ -49,7 +40,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - React (Frontend Framework)
      - Search functionality: Implement in React.
 
-**6. [] User Interface (UI) Design:**
+**5.  User Interface (UI) Design:**
    - **Objective:**
      - Design user-friendly interfaces with clear labels and intuitive navigation.
 
@@ -58,7 +49,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - CSS for styling
      - Responsive design principles
 
-**7. [] Additional Considerations:**
+**6. Additional Considerations:**
    - **Technology Stack:**
      - Use React Router for navigation
      - State management: React Context API or Redux.
@@ -70,14 +61,14 @@ Steps and technology stacks for both frontend and backend based on the project r
      - Implement scalable server to handle business logic like add user, admin, recruiter and candidate details  and interact with the database.
 
    - **Technology Stack:**
-     - Node.js(Express)/Java(SpringBoot) (Backend Framework)
+     - Java(SpringBoot) (Backend Framework)
 
 **2. Database:**
    - **Objective:**
-     - Choose a relational database for storing user data, client information, resumes, and job descriptions.
+     - Choose a relational database for storing user data, client information, and job descriptions.
 
    - **Technology Stack:**
-     - PostgreSQL (Relational Database)
+     - MySQL (Relational Database)
 
 **3. Authentication Module:**
    - **Objective:**
@@ -85,31 +76,16 @@ Steps and technology stacks for both frontend and backend based on the project r
 
    - **Technology Stack:**
      - Authentication for frontend 
-     - Validate tokens on the backend (Node.js)
+     - Validate tokens on the backend using JWT token
 
-**4. Resume Processing Module:**
+**4. JD Parsing Module:**
    - **Objective:**
-     - Integrate NLP for keyword extraction from uploaded resumes.
+     - Develop parsers to extract essential details from manually entered job descriptions.
 
    - **Technology Stack:**
-     - NLP library: spaCy or NLTK
-     - Node.js (for integration)
+     - SpringBoot (Backend Framework)
 
-**5. JD Parsing Module:**
-   - **Objective:**
-     - Develop parsers to extract essential details from manually entered or uploaded job descriptions.
-
-   - **Technology Stack:**
-     - Node.js (Backend Framework)
-
-**6. Keyword Matching Algorithm:**
-   - **Objective:**
-     - Enable initial keyword-based matching.
-
-   - **Technology Stack:**
-     - Design a keyword search algorithm initially.
-
-**7. Scalability and Performance:**
+**5. Scalability and Performance:**
    - **Objective:**
      - Ensure the system can scale with growing data and user loads.
 
@@ -117,7 +93,7 @@ Steps and technology stacks for both frontend and backend based on the project r
      - Design for horizontal scalability.
      - Optimize queries and implement caching strategies.
 
-**8. Security Measures:**
+**6. Security Measures:**
    - **Objective:**
      - Safeguard user and client data.
 
@@ -126,9 +102,6 @@ Steps and technology stacks for both frontend and backend based on the project r
      - Implement input validation to prevent SQL injection.
      - Regular security audits.
 
-**9. Additional Considerations:**
-   - **Technology Stack:**
-     - Express.js for building RESTful APIs in Node.js.
 
 ### Summary:
 
@@ -136,10 +109,9 @@ Steps and technology stacks for both frontend and backend based on the project r
 - React
 - React Router
 - CSS for styling
-- Formik or React Hook Form for forms
+- React Hook Form for forms
 
 **Backend:**
-- Node.js (Express.js for RESTful APIs)
-- PostgreSQL (or another relational database)
-- NLP Library (spaCy or NLTK)
-- Firebase Authentication (for token validation)
+- SpringBoot framework(for RESTful APIs)
+- MySQL (or another relational database)
+- JWT Authentication (for token validation)
