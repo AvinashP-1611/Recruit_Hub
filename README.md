@@ -1,117 +1,70 @@
-# Recruit_Hub
-Developed a cutting-edge recruitment tool that simplifies hiring processes by intelligently 
-matching job descriptions (JD) with resumes.
+# Getting Started with Create React App
 
-Steps and technology stacks for both frontend and backend based on the project requirements:-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Frontend:
+## Available Scripts
 
-**1. Login Screen:**
-   - **Objective:**
-     - Implement user authentication with a unique username/email and secure password.
+In the project directory, you can run:
 
-   - **Technology Stack:**
-     - React (Frontend Framework)
-     
+### `npm start`
 
-**2.  Roles and Right Management Screen:**
-   - **Objective:**
-     - Manage user roles (Admin, Recruiter, Candidate) with responsibilities.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-   - **Technology Stack:**
-     - React (Frontend Framework)
-     
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**3. User Entry and Upload Form:**
-   - **Objective:**
-     - Create a form for users to enter details.
-     - Implement validation.
+### `npm test`
 
-   - **Technology Stack:**
-     - React (Frontend Framework)
-     - React Hook Form for form handling
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**4.  Requirement Upload/Input and Search:**
-   - **Objective:**
-     - Authenticate users before accessing match results.
-     - Allow users to upload requirements, search, and display match results.
+### `npm run build`
 
-   - **Technology Stack:**
-     - React (Frontend Framework)
-     - Search functionality: Implement in React.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**5.  User Interface (UI) Design:**
-   - **Objective:**
-     - Design user-friendly interfaces with clear labels and intuitive navigation.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   - **Technology Stack:**
-     - React (Frontend Framework)
-     - CSS for styling
-     - Responsive design principles
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**6. Additional Considerations:**
-   - **Technology Stack:**
-     - Use React Router for navigation
-     - State management: React Context API or Redux.
+### `npm run eject`
 
-### Backend:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**1. Technical Architecture:**
-   - **Objective:**
-     - Implement scalable server to handle business logic like add user, admin, recruiter and candidate details  and interact with the database.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   - **Technology Stack:**
-     - Java(SpringBoot) (Backend Framework)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**2. Database:**
-   - **Objective:**
-     - Choose a relational database for storing user data, client information, and job descriptions.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   - **Technology Stack:**
-     - MySQL (Relational Database)
+## Learn More
 
-**3. Authentication Module:**
-   - **Objective:**
-     - Ensure secure user access control.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-   - **Technology Stack:**
-     - Authentication for frontend 
-     - Validate tokens on the backend using JWT token
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**4. JD Parsing Module:**
-   - **Objective:**
-     - Develop parsers to extract essential details from manually entered job descriptions.
+### Code Splitting
 
-   - **Technology Stack:**
-     - SpringBoot (Backend Framework)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-**5. Scalability and Performance:**
-   - **Objective:**
-     - Ensure the system can scale with growing data and user loads.
+### Analyzing the Bundle Size
 
-   - **Technology Stack:**
-     - Design for horizontal scalability.
-     - Optimize queries and implement caching strategies.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**6. Security Measures:**
-   - **Objective:**
-     - Safeguard user and client data.
+### Making a Progressive Web App
 
-   - **Technology Stack:**
-     - Encryption for sensitive data.
-     - Implement input validation to prevent SQL injection.
-     - Regular security audits.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-### Summary:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**Frontend:**
-- React
-- React Router
-- CSS for styling
-- React Hook Form for forms
+### Deployment
 
-**Backend:**
-- SpringBoot framework(for RESTful APIs)
-- MySQL (or another relational database)
-- JWT Authentication (for token validation)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

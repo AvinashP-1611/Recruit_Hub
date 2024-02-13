@@ -1,0 +1,135 @@
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+  }
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto;
+    width: 500px; */
+    padding: 10px;
+    background-color: transparent!important;
+    box-shadow: 0 4px 8px rgba(40, 55, 76, 0.8) !important; /* Adjust values as needed */
+
+  }
+
+  .card-heading {
+    color: rgb(16, 39, 39);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+   text-align: center;
+
+    }
+  
+  .card-area {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px !important;
+    background: rgb(143, 143, 138) !important;
+  }
+  
+  
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 16px; /* Adjust the margin as needed */
+    padding: 20px;
+
+  }
+  
+
+  .user-information{
+    width: 400px;
+    height: 180px;
+    color:  #f0f0f0;
+    font-size: 14px;
+
+   }
+  .card-content ul {
+    list-style: none;
+ 
+
+  }
+  
+  .card-content li {
+    /* margin-bottom: 8px; Adjust the margin as needed */
+    padding: 5px;
+
+  }
+  
+
+  .account-box {
+    padding: 10px;
+    background-color: rgb(74, 74, 141);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(40, 55, 76, 0.8); /* Adjust values as needed */
+  }
+  
+  .account-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust values for hover state */
+  }
+
+  .account-cirlce{
+    border-radius: 50%;
+    border: 5px solid rgb(33, 175, 175);
+    
+  }
+  
+ .profile-btn{
+    background: blue!important;
+    color: yellow!important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .profile-btn:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: yellow!important;
+    color: black!important;
+  
+ }
+  
+
+ /* styles.css */
+
+/* Define media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .profile-container {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    .card-area {
+      flex-direction: column; /* Change direction for smaller screens */
+    }
+  
+    .card-content {
+      flex-direction: column; /* Change direction for smaller screens */
+      align-items: center; /* Center content */
+      margin-left: 0; /* Remove margin for smaller screens */
+    }
+  
+    .user-information {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  }
+  
+  /* Other styles remain the same */
+  
